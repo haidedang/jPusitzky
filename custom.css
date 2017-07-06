@@ -86,6 +86,7 @@ nav button{
     background-repeat: no-repeat;
     background-size: contain;
     margin-top: 10%;
+
     margin-bottom: 20%;
 }
 #first .name{
@@ -103,10 +104,12 @@ nav button{
 }
     /*styling text div*/
     #first .description p{
+        font-size: 40px;
         font-size: -webkit-xxx-large;
         color: #8e8e8e;
     }
     #first .logo{
+        font-size: 40px;
         font-size: -webkit-xxx-large !important;
         color: #8e8e8e;
     }
