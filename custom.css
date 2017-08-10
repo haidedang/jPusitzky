@@ -76,71 +76,17 @@ nav button{
     width: 950px !important;
 }
 #first .wrapper {
-    display: inline-block;
+    height: 1000px;
     width: 100%;
-    position: relative;
-}
-#first .pic{
-    height: 600px;
-    background-image: url("images/front.jpg");
+    background-image: url("images/bam.png");
     background-repeat: no-repeat;
     background-size: contain;
-    margin-top: 10%;
-    margin-bottom: 20%;
 }
-#first .name{
-    height: 300px;
-    position: absolute !important;
-    border: 5px solid #8e8e8e;
-    top: 5%;
-}
-#first .description{
-    top: 45%;
-    height: 350px;
-    overflow: hidden;
-    position: absolute;
-    border: 5px solid #8e8e8e;
-}
-    /*styling text div*/
-    #first .description p{
-        font-size: 40px;
-        font-size: -webkit-xxx-large;
-        color: #8e8e8e;
-    }
-    #first .logo{
-        font-size: 40px;
-        font-size: -webkit-xxx-large !important;
-        color: #8e8e8e;
-    }
-    /*END OF styling text div*/
+
     /*RESPONSIVE first*/
     @media screen and (max-width:959px) {
         #first .wrapper{
-            margin-top: 85px;
-            margin-bottom: 85px;
-        }
-        #first .pic{
-            height: 300px;
-            margin-top: 25%;
-            margin-bottom: 25%;
-            background-size: cover;
-        }
-        #first .name{
-            height: 150px;
-            position: absolute !important;
-            border: 2px solid #8e8e8e;
-            top: 5%;
-        }
-        #first .logo, #first .description p{
-            font-size: large !important;
-            color: #8e8e8e;
-        }
-        #first .description{
-            top: 65%;
-            height: 175px;
-            overflow: hidden;
-            position: absolute;
-            border: 2px solid #8e8e8e;
+            height: 667px;
         }
     }
     /*END OF RESPONSIVE first*/
@@ -353,7 +299,58 @@ iframe{
 .wideo-wrapper{
     position: absolute !important;
 }
+/*styling labels */
+.marken {
+    width: auto;
+    height: 500px;
+}
+.marken .logos {
+    background-image: url("images/logos/fitbit.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100px;
+}
+#l1 {
+    background-image: url("images/logos/fitbit.png");
+}
+#l2 {
+    background-image: url("images/logos/mac.png");
+}
+#l3 {
+    background-image: url("images/logos/freeletics.png");
+}
+#l4 {
+    background-image: url("images/logos/defshop.png");
+}
+#l5 {
+    background-image: url("images/logos/jj.png");
+}
+#l6 {
+    background-image: url("images/logos/puma.png");
+}
+#l7 {
+    background-image: url("images/logos/johnreed.png");
+}
+#l8 {
+    background-image: url("images/logos/desigual.png");
+}
+#l9 {
+    background-image: url("images/logos/b4g.png");
+}
+#l10 {
+    background-image: url("images/logos/bamoli.png");
+}
+#l11 {
+    background-image: url("images/logos/vattenfall.png");
+}
+#l12 {
+    background-image: url("images/logos/outfit.png");
+}
+#l13 {
+    background-image: url("images/logos/rankin.png");
+}
 
+/*END OF styling labels */
 @media screen and (max-width:959px) {
     iframe{
         height: 225px;
@@ -396,6 +393,18 @@ iframe{
 }
 #contact .text{
 margin-top: 2%;
+}
+.me, .bbp {
+    height: 50px;
+    width: 223px;
+    background-image: url("images/me.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bbp {
+    height: 50px;
+    width: 223px;
+    background-image: url("images/bbp.png");
 }
 @media screen and (max-width:959px) {
     #contact p{
