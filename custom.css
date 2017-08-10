@@ -82,7 +82,35 @@ nav button{
     background-repeat: no-repeat;
     background-size: contain;
 }
+<<<<<<< HEAD
 
+=======
+#first .name{
+    height: 300px;
+    position: absolute !important;
+    border: 5px solid #8e8e8e;
+    top: 5%;
+}
+#first .description{
+    top: 45%;
+    height: 350px;
+    overflow: hidden;
+    position: absolute;
+    border: 5px solid #8e8e8e;
+}
+    /*styling text div*/
+    #first .description p{
+        font-size: 40px;
+        font-size: -webkit-xxx-large;
+        color: #8e8e8e;
+    }
+    #first .logo{
+        font-size: 40px;
+        font-size: -webkit-xxx-large !important;
+        color: #8e8e8e;
+    }
+    /*END OF styling text div*/
+>>>>>>> dd9740a488eb30902390f7b24a1173c5a15eb218
     /*RESPONSIVE first*/
     @media screen and (max-width:959px) {
         #first .wrapper{
