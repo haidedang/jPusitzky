@@ -76,6 +76,14 @@ nav button{
         margin-right: 0;
         transform: translateY(-80%);
     }
+    button{
+        height: 44px !important;
+    }
+    .disappear{
+        visibility: hidden;
+        pointer-events: none;
+        cursor: default;
+    }
 }
 /*END OF styling navbar*/
 /*styling first*/
