@@ -317,6 +317,7 @@ iframe{
     width: 520px;
 }
 .wideo-wrapper{
+    margin-top: 10%;
     position: absolute !important;
 }
 /*styling labels */
@@ -366,8 +367,8 @@ iframe{
 #l12 {
     background-image: url("images/logos/outfit.png");
 }
-#l13 {
-    background-image: url("images/logos/rankin.png");
+#l14 {
+    background-image: url("images/logos/bbp2.svg");
 }
 
 /*END OF styling labels */
