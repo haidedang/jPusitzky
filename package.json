@@ -1,0 +1,26 @@
+{
+  "name": "jpusitzky",
+  "version": "1.0.0",
+  "description": "joel homepage",
+  "main": "server.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haidedang/jPusitzky.git"
+  },
+  "author": "haidedang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haidedang/jPusitzky/issues"
+  },
+  "homepage": "https://github.com/haidedang/jPusitzky#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "http": "0.0.0"
+  }
+}
